@@ -7,8 +7,10 @@ body, html {
 }
 
 .container {
-    height: 100%;
+
     background-color: #2E0854; /* Dark purple background color */
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
