@@ -1,7 +1,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -19,7 +18,7 @@ body, html {
 }
 
 header {
-    margin: 58px 0;
+    margin: 38px 0;
 }
 
         .large-image {
