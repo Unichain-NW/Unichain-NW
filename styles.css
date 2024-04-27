@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    height: 100%;
+    background-color: #2E0854; /* Dark purple background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    margin: 20px 0;
+}
+
+.logo {
+    width: 88px; /* 根据实际大小调整 */
+}
+
+        .large-image {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+         .extra-small-image {
+            max-width: 50px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }      
+         .core-technology {
+            max-width: 28px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }      
+        header {
+            position: relative;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header img {
+            max-width: 100px;
+        }
+        main {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+h1 {
+    font-size: 2em;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-img {
+    width: 50%; /* 根据需要调整 */
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #000;
+    background-color: #4CAF50; /* 绿色按钮 */
+    border: none;
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+
+
+
+
+
