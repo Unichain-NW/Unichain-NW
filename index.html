@@ -17,8 +17,13 @@
                 <img src="large-image.jpg" alt="大图" class="large-image">
             </section>
 
-            <img src="QR.png" alt="公司标志" class="QR" >
-            <img src="logo.jpg" alt="核心技术" class="logo">
+            <img src="QR.png" alt="QR Code" class="QR" >
+            <img id="Clicklogo" src="logo.jpg" alt="Company Logo" class="logo">
+            <script>
+             document.getElementById("Clicklogo").addEventListener("click", function() {
+    handleClick();
+});
+           </script>
             <button onclick="learnMore()" style="margin-top: 88px;">About Us</button>
         </main>
 
