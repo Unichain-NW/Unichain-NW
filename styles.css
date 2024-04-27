@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -18,7 +19,7 @@ body, html {
 }
 
 header {
-    margin: 38px 0;
+    margin: 8px 0;
 }
 
         .large-image {
@@ -35,7 +36,7 @@ header {
         }   
          .QR {
             max-width: 78px;
-            margin-top: 12px;
+            margin-top: 18px;
         }        
         header {
             position: relative;
@@ -54,7 +55,9 @@ header {
 h1 {
     font-size: 2em;
 }
-
+h2 {
+    font-size: 1.2em;
+}
 .hero {
     flex: 1;
     display: flex;
@@ -78,3 +81,4 @@ button {
 footer p {
     font-size: 0.8em;
 }
+
