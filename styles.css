@@ -17,29 +17,26 @@ body, html {
 }
 
 header {
-    margin: 20px 0;
-}
-
-.logo {
-    width: 88px; /* 根据实际大小调整 */
+    margin: 58px 0;
 }
 
         .large-image {
             max-width: 100%;
-            margin-top: 10px;
+            margin-top: 0px;
         }
-         .extra-small-image {
-            max-width: 50px;
-            position: absolute;
-            top: 10px;
-            left: 10px;
-        }      
-         .core-technology {
+
+         .logo {
             max-width: 28px;
             position: absolute;
-            top: 10px;
-            right: 10px;
-        }      
+            top: 20px;
+            left: 20px;
+        }   
+         .QR {
+            max-width: 78px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }        
         header {
             position: relative;
             width: 100%;
@@ -66,24 +63,21 @@ h1 {
     align-items: center;
 }
 
-.feature-img {
-    width: 50%; /* 根据需要调整 */
-    margin-bottom: 20px;
-}
+
 
 button {
     padding: 10px 20px;
     font-size: 1em;
-    color: #000;
-    background-color: #4CAF50; /* 绿色按钮 */
-    border: none;
+    color: white;
+    background-color: #2E0854; /* 背景色按钮 */
+    border: 3px solid white;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 footer p {
     font-size: 0.8em;
 }
-
 
 
 
