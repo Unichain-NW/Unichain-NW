@@ -30,6 +30,7 @@ header {
             position: absolute;
             top: 20px;
             left: 20px;
+            cursor: pointer;
         }   
          .QR {
             max-width: 78px;
@@ -78,7 +79,3 @@ button {
 footer p {
     font-size: 0.8em;
 }
-
-
-
-
