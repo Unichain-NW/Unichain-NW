@@ -34,9 +34,7 @@ header {
         }   
          .QR {
             max-width: 78px;
-            position: absolute;
-            top: 20px;
-            right: 20px;
+            margin-top: 12px;
         }        
         header {
             position: relative;
